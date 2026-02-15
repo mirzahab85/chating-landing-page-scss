@@ -67,4 +67,51 @@ a {
 .navbar_items_wrapper .navbar_btn:hover {
   background-color: rgba(255, 255, 255, 0.9);
   color: #3574c4;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/****** NAVIGATION END ********/
+/***** SECTION HERO START ********/
+.hero {
+  background-color: #3574c4;
+}
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .container .hero-left .title {
+  font-size: 96px;
+  font-weight: bold;
+  color: #fff;
+}
+.hero .container .hero-left .text {
+  font-size: 24px;
+  color: #fff;
+  margin: 40px 0;
+}
+.hero .container .hero-left .btn_wrapper {
+  display: flex;
+  gap: 20px;
+}
+.hero .container .hero-left .btn_wrapper .btn_white {
+  padding: 21px 80px;
+  color: #3574c4;
+  border: 2px solid #fff;
+}
+.hero .container .hero-left .btn_wrapper .btn_white:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.hero .container .hero-left .btn_wrapper .btn_outline {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 21px 80px;
+  color: #fff;
+}
+.hero .container .hero-left .btn_wrapper .btn_outline:hover {
+  background-color: #fff;
+  color: #3574c4;
+}
+
+/****** SECTION HERO END *********//*# sourceMappingURL=style.css.map */
