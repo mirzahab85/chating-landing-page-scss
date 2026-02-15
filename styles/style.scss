@@ -112,3 +112,65 @@
     }
 }
 /****** SECTION HERO END *********/
+/****** SECTION TEAM START *********/
+ .team {
+     padding: 64px 0;
+     text-align: center;
+     .team_title {
+         font-size: 46px;
+         color: #3574c4;
+         margin-bottom: 64px;
+    }
+     .team_textOne, .team_textTwo {
+         font-size: 18px;
+         margin: 20px auto;
+         width: 70%;
+    }
+     .teamImage {
+         margin-top: 40px;
+         width: 75%;
+    }
+}
+/****** SECTION TEAM END ***********/
+/****** SECTION DEMO START *********/
+ .demo {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 30px;
+     img {
+         width: 50%;
+         margin: 50px auto;
+    }
+     .demo_content {
+         h3 {
+             font-size: 48px;
+             font-weight: lighter;
+             text-align: center;
+             margin-bottom: 49px;
+        }
+         p {
+             font-size: 18px;
+             text-align: center;
+             margin-bottom: 40px;
+        }
+         .btn-wrapper {
+             display: flex;
+             justify-content: space-between;
+             gap: 20px;
+             .btn {
+                 padding: 20px 81px;
+            }
+             .btn-white {
+                 background-color: #3574c4;
+                 color: white;
+            }
+             .btn-outline {
+                 background-color: transparent;
+                 color: #3574c4;
+                 border: 2px solid #3574c4;
+            }
+        }
+    }
+}
+/****** SECTION DEMO END ***********/
