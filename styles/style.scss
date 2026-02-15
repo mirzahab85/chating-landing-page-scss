@@ -174,3 +174,30 @@
     }
 }
 /****** SECTION DEMO END ***********/
+/****** FOOTER START *********/
+ .footer {
+     background-color: #3574c4;
+     padding: 30px;
+     .container {
+         .footer-wrapper {
+             display: flex;
+             justify-content: space-between;
+             margin-bottom: 30px;
+             ul {
+                 display: flex;
+                 flex-direction: column;
+                 gap: 30px;
+                 li a {
+                     color: white;
+                }
+            }
+        }
+         .footer_title {
+             text-align: center;
+             color: #fff;
+             font-size: 15px;
+             cursor: pointer;
+        }
+    }
+}
+/****** FOOTER END *********/
