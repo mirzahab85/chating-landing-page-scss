@@ -201,3 +201,115 @@
     }
 }
 /****** FOOTER END *********/
+
+/* MOBILE RESPONSIVE START */
+@media screen and (max-width: 600px){
+    /* NAVIGATION START */
+    .navbar{
+        padding: 10px 0;
+        .container{
+            flex-direction: column;
+            .navbar_items_wrapper{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 0;
+                .navbar_items{
+                    border: none;
+                }
+            }
+        }
+    }
+    /* NAVIGATION END */
+    
+    /* HERO START */
+     .hero{
+         padding: 20px 0;
+         .container{
+             flex-direction: column;
+             gap: 50px;
+             .hero-right{
+                 img{
+                     width: 100%;
+                }
+            }
+             .hero-left{
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                 .title{
+                     font-size: 76px;
+                     text-align: center;
+                }
+                 .text{
+                     font-size: 18px;
+                     margin: 20px 0;
+                }
+                 .btn_wrapper{
+                     display: flex;
+                     gap: 20px;
+                     .btn_white{
+                         padding: 8px 40px;
+                    }
+                     .btn-outline{
+                         color: red;
+                         padding: 8px 40px;
+                    }
+                }
+            }
+        }
+    }
+    /* HERO END */
+
+    /* TEAM START */
+     .team {
+         .team_title{
+             margin-bottom: 10px;
+        }
+         .team_textOne{
+             & .team .team_textTwo{
+                 width: 100%;
+            }
+        }
+         .teamImage{
+             width: 100%;
+        }
+    }
+    /* TEAM END */
+
+    /* DEMO START */
+     .demo{
+         flex-direction: column-reverse;
+         .demo_content{
+             .btn-wrapper{
+                 align-items: center;
+                 justify-content: center;
+                 .btn{
+                     padding: 8px 40px;
+                }
+            }
+        }
+    }
+    /* DEMO END */
+
+    /* FOOTER START */
+     .footer {
+         .container {
+             .footer-wrapper{
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: center;
+                 gap: 40px;
+                 ul{
+                     gap: 5px;
+                     text-align: center;
+                }
+            }
+        }
+    }
+}
+/* FOOTER END */
+/* MOBILE RESPONSIVE END */
+
+    

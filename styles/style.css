@@ -202,4 +202,97 @@ a {
   cursor: pointer;
 }
 
-/****** FOOTER END *********//*# sourceMappingURL=style.css.map */
+/****** FOOTER END *********/
+/* MOBILE RESPONSIVE START */
+@media screen and (max-width: 600px) {
+  /* NAVIGATION START */
+  .navbar {
+    padding: 10px 0;
+  }
+  .navbar .container {
+    flex-direction: column;
+  }
+  .navbar .container .navbar_items_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  .navbar .container .navbar_items_wrapper .navbar_items {
+    border: none;
+  }
+  /* NAVIGATION END */
+  /* HERO START */
+  .hero {
+    padding: 20px 0;
+  }
+  .hero .container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hero .container .hero-right img {
+    width: 100%;
+  }
+  .hero .container .hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero .container .hero-left .title {
+    font-size: 76px;
+    text-align: center;
+  }
+  .hero .container .hero-left .text {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .hero .container .hero-left .btn_wrapper {
+    display: flex;
+    gap: 20px;
+  }
+  .hero .container .hero-left .btn_wrapper .btn_white {
+    padding: 8px 40px;
+  }
+  .hero .container .hero-left .btn_wrapper .btn-outline {
+    color: red;
+    padding: 8px 40px;
+  }
+  /* HERO END */
+  /* TEAM START */
+  .team .team_title {
+    margin-bottom: 10px;
+  }
+  .team .team_textOne .team .team_textTwo {
+    width: 100%;
+  }
+  .team .teamImage {
+    width: 100%;
+  }
+  /* TEAM END */
+  /* DEMO START */
+  .demo {
+    flex-direction: column-reverse;
+  }
+  .demo .demo_content .btn-wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  .demo .demo_content .btn-wrapper .btn {
+    padding: 8px 40px;
+  }
+  /* DEMO END */
+  /* FOOTER START */
+  .footer .container .footer-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .footer .container .footer-wrapper ul {
+    gap: 5px;
+    text-align: center;
+  }
+}
+/* FOOTER END */
+/* MOBILE RESPONSIVE END *//*# sourceMappingURL=style.css.map */
